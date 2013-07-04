@@ -1,0 +1,36 @@
+{
+  "name": "throwify",
+  "version": "0.0.1-preliminary",
+  "description": "utility to wrap error calling async's into error throwing async's",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtudury/throwify.git"
+  },
+  "keywords": [
+    "domain",
+    "error",
+    "try",
+    "catch",
+    "throw"
+  ],
+  "author": {
+    "name": "david tudury",
+    "email": "david.tudury@gmail.com"
+  },
+  "engine": {
+    "node": ">=0.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/dtudury/throwify/raw/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  }
+}
